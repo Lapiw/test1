@@ -1,1 +1,1 @@
-{'payload': "__import__('os').system('echo Ez_Super_Secret > /tmp/test')"}
+{'payload': "__import__('os').system('echo Ez_Super_Secret > public/test')"}
