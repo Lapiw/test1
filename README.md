@@ -1,1 +1,1 @@
-$<img src=a onerror=alert(1)>%$
+$$\href{http://google.com}{Click me}$$
